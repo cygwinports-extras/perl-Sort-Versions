@@ -1,11 +1,13 @@
-CPAN_AUTHOR=edavis
+CPAN_AUTHOR=neilb
 inherit perl
 
 NAME="perl-Sort-Versions"
-VERSION=1.5
+VERSION=1.61
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl version sorting module"
 DESCRIPTION="This module allows easy sorting (via comparisons) of mixed text
 and numeric strings, similar to the complex version numbers that many revision
 control packages and shared library systems use."
+
+ARCH=noarch
